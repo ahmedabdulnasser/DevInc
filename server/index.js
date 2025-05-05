@@ -17,7 +17,7 @@ app.use(express.json());
 //     credentials: true,
 //   })
 // );
-app.options("*", cors());
+// app.options("*", cors());
 app.use(
   cors({
     origin: "*",
